@@ -12,16 +12,23 @@ class ParlamentaryCorpus():
             with open(self.path, encoding="UTF-8") as infile:
                 json_input = json.load(infile)
 
-        for chaos in json_input["sentences"]:
-            for k, data in chaos.items():
+        if lower == False:
+            for chaos in json_input["sentences"]:
                 token_list = []
-                if isinstance(data, list):
-                    for dictionary in data:
-                        if dictionary["special_status"] == None and lower == True:
-                            token_list.append(dictionary["token_text"].lower())
-                        elif dictionary["special_status"] == None:
-                            token_list.append(dictionary["token_text"])
-                    sentence_dict[dictionary["sentence_id"]] = token_list
+                for token in chaos["tokens"]:
+                    if token["special_status"] != None:
+                        continue
+                    else:
+                        token_list.append(token["token_text"])
+                    sentence_dict[chaos["sentence_id"]] = token_list
+        else:
+            for chaos in json_input["sentences"]:
+                token_list = []
+                for token in chaos["tokens"]:
+                    if token["special_status"] != None:
+                        continue
+                    else:
+                        token_list.append(token["token_text"].lower())
+                    sentence_dict[chaos["sentence_id"]] = token_list
+                    
         return sentence_dict
-
-# NESTING FOR DAYS
