@@ -19,7 +19,10 @@ class ParlamentaryCorpus():
                     if token["special_status"] != None:
                         continue
                     else:
-                        token_list.append(token["token_text"])
+                        if " " in token["token_text"]:
+                            token_list.extend(token["token_text"].split())
+                        else:
+                            token_list.append(token["token_text"])
                     sentence_dict[chaos["sentence_id"]] = token_list
         else:
             for chaos in json_input["sentences"]:
@@ -28,7 +31,10 @@ class ParlamentaryCorpus():
                     if token["special_status"] != None:
                         continue
                     else:
-                        token_list.append(token["token_text"].lower())
+                        if " " in token["token_text"]:
+                            token_list.extend(token["token_text"].lower().split())
+                        else:
+                            token_list.append(token["token_text"].lower())
                     sentence_dict[chaos["sentence_id"]] = token_list
                     
         return sentence_dict
