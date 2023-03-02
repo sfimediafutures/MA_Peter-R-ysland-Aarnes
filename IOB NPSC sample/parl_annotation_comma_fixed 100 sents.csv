@@ -7,7 +7,7 @@ O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,B-PROD,O
 det,har,man,redusert,inngangsporten,til
 O,O,O,O,O,O
 jeg,har,likevel,bedt,Havforskningsinstituttet,og,Fiskeridirektoratet,om,å,styrke,innsatsen,knytta,til,kystnære,lokale,fiskebestander,i,2018
-O,O,O,O,B-ORG,og,B-ORG,O,O,O,O,O,O,O,O,O,O,O
+O,O,O,O,B-ORG,O,B-ORG,O,O,O,O,O,O,O,O,O,O,O
 julen,er,også,en,høytid,for,vold,og,overgrep
 O,O,O,O,O,O,O,O,O
 president,dette,viser,tydelig,at,FrP,sitt,vedtak,verken,har,respekt,kunnskap,eller,forståelse,for,trusfriheten
@@ -33,9 +33,9 @@ B-PER,O,O,O
 bl.a.,deltar,Helsedirektoratet,og,Kreftregisteret,i,denne,arbeidsgruppa
 O,O,B-ORG,O,B-ORG,O,O,O
 ja,det,var,en,stor,dag,for,Norge,for,da,fatta,Stortinget,den,endelige,beslutningen,om,at,hovedflyplassen,skulle,bygges,på,Gardermoen,etter,mange,tiårs,debatt,en,av,de,vanskeligste,politiske,sakene,i,Norge,i,etterkrigstida
-O,O,O,O,O,O,O,B-GPE_LOC,O,O,O,B-ORG,O,O,O,om,O,O,O,O,O,B-LOC,O,O,O,O,O,O,O,O,O,O,O,B-GPE_LOC,O,O
+O,O,O,O,O,O,O,B-GPE_LOC,O,O,O,B-ORG,O,O,O,O,O,O,O,O,O,B-LOC,O,O,O,O,O,O,O,O,O,O,O,B-GPE_LOC,O,O
 når,vi,nå,har,gått,inn,i,regjering,fra,januar,og,nå,etter,noen,måneder,har,fremmet,et,revidert,budsjett,sammen,med,de,øvrige,regjeringspartiene,så,ser,vi,at,det,er,en,styrking,av,satsing,på,marin,forsøpling,oppe,i,280,millioner
-O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,oppe,O,O,O
+O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
 Andersen
 B-PER
 Moxnes
@@ -121,7 +121,7 @@ O,O,O,O,O,O,B-ORG,O,O,O,O,O
 men,her,ser,vi,et,elegant,eksempel,på,at,det,som,er,sunn,fornuft,legges,til,side,og,det,er,svært,beklagelig,president
 O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O,O
 og,forslag,nummer,elleve,fra,Ola,Elvestuen,på,vegne,av,Venstre
-O,O,O,O,O,P-PER,I-PER,O,O,O,B-ORG
+O,O,O,O,O,B-PER,I-PER,O,O,O,B-ORG
 det,er,ikke,SV,ukjent,med
 O,O,O,B-ORG,O,O
 gode,president

@@ -1257,8 +1257,6 @@ mer,O
 statsråd,O
 Helgesen,B-PER
 ,
-,
-,
 jeg,O
 tror,O
 det,O
@@ -2389,10 +2387,10 @@ er,O
 utenriksministerens,O
 reaksjon,O
 på,O
-Tyrkias,B_GPE_ORG
+Tyrkias,B-GPE_ORG
 angrep,O
 på,O
-Afrin,B_GPE_ORG
+Afrin,B-GPE_ORG
 ,
 ja,O
 president,O
@@ -2837,7 +2835,7 @@ en,O
 forenklet,O
 skatteordning,O
 med,O
-25 %,O
+25%,O
 skatt,O
 uten,O
 fradrag,O
@@ -2931,7 +2929,7 @@ vi,O
 lese,O
 at,O
 bare,O
-28 %,O
+28%,O
 av,O
 helsefagarbeiderstillingene,O
 som,O
