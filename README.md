@@ -45,7 +45,7 @@ NorNE results: The annotated NPSC sample dataset results for all models. BERT mo
 |-----------|-------|-----------------------|-----------------------|-----------------------|------------|
 | NorBERT2  | 0     | 99.39 (\pm{0.05})     | 99.79 (\pm{0.02})     | 99.59 (\pm{0.02})     | 1014791    |
 |           | 1     | 94.81 (\pm{0.47})     | 86.42 (\pm{0.89})     | 90.41 (\pm{0.36})     | 41247      |
-|           | Macro avg. | 97.10 (\pm{0.22}) | 93.10 (\pm{0.44})     | 95.00 (\pm{0.19})     | 103946
+|           | Macro avg. | 97.10 (\pm{0.22}) | 93.10 (\pm{0.44})     | 95.00 (\pm{0.19})     | 103946    |
 
 NPSC NorNe Binary Classification precision, recall and F1 metrics for all models. The 0 class denotes the Not Capital Letter class. The 1 class denotes the Capital letter class. The Support collumn refers to the number of entries for a given class. *729 sentences were dropped from SpaCy pipeline because of variance between prediction and gold standard sequence length.
 
