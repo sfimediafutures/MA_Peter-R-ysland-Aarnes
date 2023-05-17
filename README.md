@@ -63,8 +63,11 @@ TBA
 NPSC NorNe Binary Classification precision, recall and F1 metrics for all models. 0 class denotes the Not Capital Letter class. 1 class denotes the Capital Letter class. The Support collumn refers to the number of entries for a given class. *729 sentences were dropped from SpaCy pipeline because of difference prediction sequence length and gold standard sequence length
 
 
+
 <br><br><br><br>
+## Resources
 Link to the NorNE dataset: https://github.com/ltgoslo/norne
+<br>
 Link to the Norwegian Parliamentary Speech Corpus: https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-58/
 
 
