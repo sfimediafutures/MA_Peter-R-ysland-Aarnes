@@ -1,4 +1,4 @@
-# Heavily insipired from:
+#  insipired by:
 # https://github.com/ltgoslo/NorBERT/blob/main/benchmarking/experiments/dataset.py
 from torch.utils.data import Dataset
 import torch
