@@ -1,14 +1,14 @@
 # Master thesis Named Entity Recognition in Speech to Text Transcripts
 Master thesis on Proper Capitalization in Speech to Text Transcripts using NER
-&ensp;
+<br>
 This repository contain code and results from the conducted experiments.
-&ensp;
+<br>
 ## Abstract
 Traditionally, named entity recognition (NER) research use properly capitalized data for training in testing, however, these results give little insight to how these models may perform in scenarios where proper capitalization is not in place. In this thesis, we explore the capabilities of five fine-tuning BERT based models for NER in all lowercase text. Furthermore, the aim is to measure the performance for classify named entity types correctly, as well as just simply detecting that a named entity is present, so a capitalization error may be corrected. The performance will be assessed using all lowercase data from the NorNE dataset, and the Norwegian Parliamentary Speech Corpus.
 &ensp;
 &ensp;
 ## Some results from the experimets
-
+<br><br>
 ### NorNE results
 |    Model    | No Boundary | Strict Match | Binary |
 |------------|-------------|--------------|--------|
@@ -64,14 +64,7 @@ TBA
 NPSC NorNe Binary Classification precision, recall and F1 metrics for all models. 0 class denotes the Not Capital Letter class. 1 class denotes the Capital Letter class. The Support collumn refers to the number of entries for a given class. *729 sentences were dropped from SpaCy pipeline because of difference prediction sequence length and gold standard sequence length
 
 
-
-
-
-
-
-&ensp;&ensp;&ensp;
-&ensp;
-&ensp;
+<br><br><br><br>
 Link to the NorNE dataset: https://github.com/ltgoslo/norne
 Link to the Norwegian Parliamentary Speech Corpus: https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-58/
 
