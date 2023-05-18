@@ -1,4 +1,4 @@
-# Master thesis Named Entity Recognition in Speech to Text Transcripts
+# Master thesis: Named Entity Recognition in Speech to Text Transcripts
 Master thesis on Proper Capitalization in Speech to Text Transcripts using NER
 <br>
 This repository contain code and results from the conducted experiments.
